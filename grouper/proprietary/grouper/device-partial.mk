@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Asus blob(s) necessary for Grouper hardware
-PRODUCT_PACKAGES := \
-    sensors-config \
-    camera.tegra3 \
-    sensors.grouper \
-    libsensors.lightsensor \
-    libdrmwvmplugin \
-    libwvm
+# Proprietary blob(s) necessary for Grouper hardware
+PRODUCT_COPY_FILES := \
+    vendor/asus/grouper/proprietary/grouper/proprietary/tf_daemon:system/bin/tf_daemon \
+    vendor/asus/grouper/proprietary/grouper/proprietary/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/asus/grouper/proprietary/grouper/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/asus/grouper/proprietary/grouper/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so \
+    vendor/asus/grouper/proprietary/grouper/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+

@@ -21,3 +21,4 @@ LOCAL_STEM := grouper/BoardConfigPartial.mk
 -include vendor/nvidia/$(LOCAL_STEM)
 -include vendor/nxp/$(LOCAL_STEM)
 -include vendor/widevine/$(LOCAL_STEM)
+-include vendor/proprietary/$(LOCAL_STEM)
