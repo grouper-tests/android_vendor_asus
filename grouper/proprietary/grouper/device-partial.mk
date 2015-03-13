@@ -15,8 +15,9 @@
 # Proprietary blob(s) necessary for Grouper hardware
 PRODUCT_COPY_FILES := \
     vendor/asus/grouper/proprietary/grouper/proprietary/tf_daemon:system/bin/tf_daemon \
+    vendor/asus/grouper/proprietary/grouper/proprietary/google.xml:system/etc/sysconfig/google.xml \
+    vendor/asus/grouper/proprietary/grouper/proprietary/google_build.xml:system/etc/sysconfig/google_build.xml \
+    vendor/asus/grouper/proprietary/grouper/proprietary/librefocus.so:system/lib/librefocus.so \
     vendor/asus/grouper/proprietary/grouper/proprietary/libfmas.so:system/lib/soundfx/libfmas.so \
-    vendor/asus/grouper/proprietary/grouper/proprietary/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/asus/grouper/proprietary/grouper/proprietary/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/asus/grouper/proprietary/grouper/proprietary/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
-
